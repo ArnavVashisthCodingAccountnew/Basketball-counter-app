@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+@font-face {
+    font-family: clockFont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+html, body {
+    height: 100%;
+}
+.container {
+    display: flex;
+    text-align:center;
+    width:100%;
+    height:100%;
+}
+.god{
+    background-color:#1B244A;
+    width:100%;
+    color:#EEEEEE;
+    font-family: Verdana, sans-serif;
+    height:100%;
+    
+    
+}
+.score{
+    height:35%;
+    background-color:#080001;
+    width:70%;
+    border-radius:10px;
+    justify-self:center;
+    font-family: clockFont;
+    color:#F94F6D;
+    font-size:63px;
+    position:relative;
+    bottom:3.125rem;
+}
+p{
+    position:relative;
+    top:7px;
+    text-align: center;
+}
+.thebutton{
+    height: 32px;
+    width: 30px; 
+    background-color: transparent;
+    border: 2px solid #9AABD8; 
+    border-radius: 5px; 
+    font-family: clockFont; 
+    color:#9AABD8;
+    text-align: center;
+    font-size: 12px; 
+    cursor: pointer; 
+    box-shadow: none; 
+    position:relative;
+    bottom:30px;
+}
